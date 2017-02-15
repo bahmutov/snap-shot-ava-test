@@ -27,7 +27,7 @@
   "homepage": "https://github.com/bahmutov/snap-shot-ava-test#readme",
   "dependencies": {
     "ava": "0.18.1",
-    "snap-shot": "2.10.1"
+    "snap-shot": "2.10.2"
   },
   "devDependencies": {
     "standard": "8.6.0"
