@@ -5,8 +5,10 @@
   "description": "Ava compatibility with snap-shot module",
   "main": "index.js",
   "scripts": {
-    "test": "ava --verbose *.test.js",
-    "issues": "git-issues"
+    "test": "DEBUG=snap-shot ava --verbose *.test.js",
+    "issues": "git-issues",
+    "lint": "standard --verbose --fix *.js",
+    "pretest": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,8 @@
   "dependencies": {
     "ava": "0.18.1",
     "snap-shot": "2.10.1"
+  },
+  "devDependencies": {
+    "standard": "8.6.0"
   }
 }

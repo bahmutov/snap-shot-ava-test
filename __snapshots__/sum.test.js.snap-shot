@@ -1,0 +1,2 @@
+exports['adds 1 + 2 to equal 3 snapshot 1'] = 3
+

@@ -7,6 +7,11 @@ test('adds 1 + 2 to equal 3', t => {
   t.is(result, 3)
 })
 
+test('adds 1 + 2 to equal 3 snapshot', t => {
+  const result = sum(1, 2)
+  snapshot(result)
+})
+
 // test('concat strings', () => {
 //   const result = sum('f', 'oo')
 //   expect(result).toMatchSnapshot()
