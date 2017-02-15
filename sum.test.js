@@ -12,7 +12,14 @@ test('adds 1 + 2 to equal 3 snapshot', t => {
   snapshot(result)
 })
 
-// test('concat strings', () => {
-//   const result = sum('f', 'oo')
-//   expect(result).toMatchSnapshot()
+// function asyncSum (a, b) {
+//   return new Promise((resolve, reject) => {
+//     resolve(sum(a, b))
+//   })
+// }
+// test.skip('concat strings', async t => {
+//   const result = await asyncSum('f', 'oo')
+//   t.is(result, 'foo')
+//   console.log(result)
+//   snapshot(result)
 // })
