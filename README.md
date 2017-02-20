@@ -4,7 +4,8 @@
 
 [![Build status][ci-image] ][ci-url]
 
-Checks if [Ava][ava] is working with our snapshot module [snap-shot][snap-shot]
+Checks if [Ava][ava] is working with our snapshot module [snap-shot][snap-shot].
+Should work for sync and async tests.
 
 [snap-shot]: https://github.com/bahmutov/snap-shot
 [ava]: https://github.com/avajs/ava
